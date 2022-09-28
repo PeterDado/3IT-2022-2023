@@ -6,21 +6,14 @@ public class CusNe {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("zadaj meno a stlac enter: ");
-        String meno = scanner.nextLine();
+        MojeMeno mojeMeno= new MojeMeno ("Peter"," Dado");
+        String x ="Jozef Pradlovsky";
+        for(int y=1;y<11;y++) {
 
-        // dopln zbytok tak aby program vyzadoval zadanie mena a priezviska
-        // do konzoly.
+            if (y % 2 == 0) {
+                System.out.println(x + y);
 
-        MojeMeno mojeMeno= new MojeMeno(meno, "Sukup");
-
-        for (int x=1 ; x<=10; x++ ){
-            //System.out.println("Lubos Sukup " + x);
-            if(x%2==0)
-                 System.out.println(mojeMeno.getCeleMeno() + " " +x);
-
+            }
         }
-
     }
 }
