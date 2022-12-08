@@ -19,4 +19,5 @@ public class Ryba extends Zviera{
         this.typVody = typVody;
     }
 }
+//zmena
 
