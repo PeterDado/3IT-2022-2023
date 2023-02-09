@@ -11,6 +11,11 @@ public class Chovatel {
     public Chovatel(String menoPriezvisko){
         this.menoPriezvisko = menoPriezvisko;
     }
+
+    public Chovatel() {
+
+    }
+
     public void pridatZviera(Zviera zviera){
         zoo.add(zviera);
     }
@@ -24,5 +29,13 @@ public class Chovatel {
 
         }
         return najdrahsieZviera;
+    }
+
+    public String getMenoPriezvisko() {
+        return menoPriezvisko;
+    }
+
+    public List<Zviera> celeZoo(){
+        return zoo;
     }
 }

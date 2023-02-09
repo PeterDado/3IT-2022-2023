@@ -23,9 +23,17 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>sk.sosholic.prvypolrok.uvod.Main</mainClass>
+                            <mainClass>sk.sosholic.prvypolrok.uvod.ZOO.MojeZoo</mainClass>
                         </manifest>
                     </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>16</source>
+                    <target>16</target>
                 </configuration>
             </plugin>
         </plugins>

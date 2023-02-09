@@ -9,6 +9,7 @@ public class Zviera {
             this.value = 0;
         }else{
             this.value = value;
+            this.animalType=animalType;
         }
 
     }
@@ -32,8 +33,8 @@ public class Zviera {
     @Override
     public String toString() {
         return "Zviera{" +
-                "animalType='" + animalType + '\'' +
-                ", value=" + value +
+                "Meno='" + animalType + '\'' +
+                ", cena=" + value +
                 '}';
     }
 }
